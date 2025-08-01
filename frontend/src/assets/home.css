@@ -1,0 +1,92 @@
+/* Custom styles for the farm management homepage */
+
+.farm-management-homepage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('https://via.placeholder.com/1920x1080?text=Farm+Background') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 6rem 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section .lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Features Section */
+.features-section {
+  padding: 4rem 0;
+}
+
+.features-section h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Feature Cards */
+.feature-cards .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.feature-cards .card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-cards .card-title {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+/* CTA Section */
+.cta-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cta-section h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Footer */
+footer a {
+  color: #95a5a6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section .lead {
+    font-size: 1.25rem;
+  }
+  
+  .cta-section .text-md-right {
+    text-align: left !important;
+    margin-top: 1rem;
+  }
+}

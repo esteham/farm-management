@@ -1,5 +1,4 @@
 // App.js
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarComponent from './components/NavbarComponent';
 import HomeComponent from './components/HomeComponent';
@@ -15,7 +14,7 @@ function App() {
   return (
     <Router>
       <NavbarComponent />
-      <div className="container mt-4">
+      <div className="container-fluid mt-4">
         <Routes>
           <Route path="/" element={<HomeComponent />} />
           <Route path="/login" element={<LoginComponent />} />
